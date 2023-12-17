@@ -14,7 +14,7 @@ import syllablesData from './syllables.json';
 import syllableToPinyins from './syllableToPinyins.json';
 
 function getMp3Url(id) {
-    return `https://tone.lib.msu.edu/tone/${id}/datastream/PROXY_MP3/download`;
+    return `https://tone.lib.msu.edu/tone/${id}/PROXY_MP3/download`;
 }
 
 const styles = theme => ({
